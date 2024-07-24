@@ -1,3 +1,4 @@
+import React from "react";
 import Hero from "./components/sections/Hero";
 import About from "./components/sections/About";
 import Services from "./components/sections/Service";
@@ -9,14 +10,24 @@ import Contact from "./components/sections/Contact";
 export default function Home() {
   return (
     <>
-      <Hero />
-      <About />
-      <Services />
-      <Portfolio />
-      <Progress />
+      <div id="home">
+        <Hero />
+      </div>
+      <div id="about">
+        <About />
+      </div>
+      <div id="services">
+        <Services />
+      </div>
+      <div id="project">
+        <Portfolio />
+        <Progress />
+      </div>
       <Testimonial />
       <Blog />
-      <Contact />
+      <div id="contact">
+        <Contact />
+      </div>
     </>
   );
 }

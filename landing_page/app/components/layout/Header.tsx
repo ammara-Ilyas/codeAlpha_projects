@@ -14,7 +14,7 @@ function Header() {
   const navLink: NavType[] = [
     {
       name: "Home",
-      path: "/",
+      path: "#home",
     },
     {
       name: "about",

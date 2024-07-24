@@ -39,13 +39,13 @@ const Calculator = () => {
         {["0", ".", "=", "+"].map((val) => (
           <Button key={val} value={val} onClick={handleClick} />
         ))}
-        <button
-          className="flex justify-center items-center w-[100%] p-2 text-3xl  text-white bg-red-500"
-          onClick={handledelet}
-        >
-          <MdCancelPresentation className=" border-2 border-black" />
-        </button>
       </div>
+      <button
+        className="flex justify-center items-center w-[100%] p-3 my-4 text-4xl   text-white bg-red-500"
+        onClick={handledelet}
+      >
+        <MdCancelPresentation className="  w-full" />
+      </button>
     </div>
   );
 };
